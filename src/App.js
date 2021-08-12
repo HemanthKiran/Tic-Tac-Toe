@@ -104,7 +104,7 @@ const App = () => {
             </div>
           ) : (
             <h1 className="text-center text-danger">
-              {isCross ? "cross" : "circle"} turns
+              {isCross ? "cross" : "circle"} turn
             </h1>
           )}
           <div className="grid">
