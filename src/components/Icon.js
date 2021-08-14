@@ -4,11 +4,11 @@ import { FaTimes, FaPen, FaRegCircle } from "react-icons/fa"
 const Icon = ({ name }) => {
     switch (name) {
         case 'circle':
-            return <FaRegCircle classname="Icon" />
+            return <FaRegCircle className="icon" />
         case 'cross':
-            return <FaTimes classname="Icon" />
+            return <FaTimes className="icon" />
         default:
-            return <FaPen classname="Icon" />
+            return <FaPen className="icon" />
 
 
 
